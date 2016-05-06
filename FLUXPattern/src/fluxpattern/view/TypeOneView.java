@@ -24,6 +24,9 @@ public class TypeOneView implements IView {
         render();
     }
 
+    /**
+     * Exempel på användarinteraktion
+     */
     public void triggerAction() {
         Dispatcher.getInstance().updateTypeOne(10);
     }
